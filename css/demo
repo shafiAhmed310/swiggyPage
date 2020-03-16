@@ -1,0 +1,10 @@
+'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Breakfast1-new_q6cje7'
+position: absolute;
+    left: calc(50% + 80px);
+    right: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: 100%;
+    top: 0;
+    background-color: hsla(26,5%,70%,.2);

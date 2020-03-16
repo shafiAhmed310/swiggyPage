@@ -1,0 +1,462 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+#headerblock{
+    height: 600px;
+}
+.leftheaderBlock {
+   
+    width:55%;
+    float:left;
+    height: 625px;
+}
+.rightheaderBlock {
+  background-image: url(../images/1.jpg.jpg);
+  height: 625px;
+  background-repeat: initial;
+  background-size: cover;
+  width: 45%;
+  float: right;
+
+}
+.logo{
+    width:30%;
+    float:left;
+    height: 70px;
+
+}
+.menu{
+    width:70%;
+    float:right;
+    text-align: right;
+    
+}
+.menu ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    line-height: 54px;
+}
+.menu ul li{
+    display:inline-block;
+}
+#menuandLogo {
+    padding:60px;
+}
+.logo svg {
+    fill:#fc8019;
+    width:200px;
+}
+.menu ul li a {
+    color: #000;
+    padding:17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover {
+    color:#fc8019;
+}
+.Signup{
+    background: #111;
+    padding: 11px 30px !important;
+    color:white !important;
+}
+#mainBlock , .footerList{
+
+    padding: 20px 60px ;
+   
+}
+.headertitle h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom:5px ;
+    margin-left: 20px;
+
+}
+.contentblockpara p {
+    font-size: 23px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 20px;
+   
+}
+.form-control {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.form{
+    position: relative;
+}
+.btn{
+    position:absolute;
+    padding: 10px;
+    color: white;
+    background: #fc8019;
+    height: 59px;
+    width: 100px;
+    right: 0;
+    top: 0;
+    height: 59px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.locateme {
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #555;
+}
+.locateme:hover{
+    background: #eee;
+    transition: cubic-bezier(0.075,0.82,0.165,1);
+    cursor: pointer;
+    
+}
+.footerList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.footerList ul li {
+    display: inline-block;
+}
+.footerList ul li a {
+    text-decoration: none;
+}
+
+.footerList h3 {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.footerList ul li:nth-child(odd) a {
+    color: #000;
+}
+.footerList ul li:nth-child(even) a {
+    color: #777;
+}
+.rightheaderBlock{
+    text-indent: -100000px;
+}
+/*----middlesection----*/
+figure{
+    margin: 0;
+}
+#middlesection {
+    background: #2b1e16;
+    padding: 0 20px;
+    height: 600px;
+    clear: both;
+}
+.leftarea {
+    width: 30%;
+    float: left;
+}
+.middlearea {
+    width: 30%;
+    float: left;
+}
+.rightarea {
+    width: 30%;
+    float: left;
+}
+.contentarea {
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+}
+.contentarea h1 {
+    font-size: 18px;
+}
+.contentarea p {
+    font-size: 14
+    px;
+}
+.contentarea img {
+    width: 105px;
+    height:199px ;
+}
+#contentres .left {
+    width: 45%;
+    float: left;
+    padding: 90px 100px;
+    box-sizing: border-box;
+   
+}
+#contentres .right {
+    width: 55%;
+    float: left;
+}
+.left img {
+    width: 170px;
+    margin: 10px;
+}
+#contentres figure {
+    margin: 0;
+}
+.right img {
+    width: 350px;
+    background-repeat: initial;
+    background-size: cover;
+}
+.right figure {
+    width: 50%;
+    float: left;
+}
+#contentres h1 {
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 1;
+    width: 300px;
+    letter-spacing: -.45px;
+}
+#contentres p {
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2;
+}
+.right .img2 {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    top: 1329px;
+    height: 470px;
+}
+
+#footersec {
+    margin: 0;
+    padding: 0;
+    background: black;
+    clear: both;
+    height: 350px;
+   
+
+}
+#border {
+    background: black;
+}
+.bottom {
+
+    clear:both;
+    border-bottom: 1px solid grey;
+    margin: 0px 80px 0px 80px;
+   
+    
+}
+
+.foot1 ul li a   {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    
+}
+.foot1 ul li a:hover {
+    color:gray;
+
+}
+.foot1 ul li{
+    display:block;
+   
+}
+ #footersec .foot1 h4 , .foot2 h4 , .foot3 h4{
+   
+    color:#777;
+    font-weight: bold;
+    margin-left: 35px;
+    text-transform: uppercase;
+    margin-top: 75px;
+ }
+.foot1 {
+    width: 25%;
+    float: left;
+    margin-left:  50px;
+    font-size: 14px;
+   
+}
+.foot2{
+    width: 25%;
+    float: left;
+    font-weight: 300;
+    font-size: 14px;
+    
+    
+    
+}
+.foot2 ul li a:hover {
+    color:gray;
+}
+.foot2 ul li a  {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+.foot2 ul li  {
+    display:block;
+   
+}
+.foot3 {
+    width: 25%;
+    float: left;
+    font-weight: 300;
+    font-size: 14px;
+   
+}
+.foot3 ul li a  {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+.foot3 ul li {
+    display:block;
+   
+
+}
+
+
+.foot3 ul li a:hover {
+    color:gray;
+}
+.footimg .img01 {
+    width: 200px;
+    height: 65px;
+    float: left;
+    margin-top: 80px;
+    box-sizing: inherit;
+    border-style: none;
+    cursor: pointer;
+}
+.footimg .img02 {
+    width: 200px;
+    height: 65px;
+    float: left;
+    margin-top: 40px;
+    box-sizing: inherit;
+    border-style: none;
+    cursor: pointer;
+    margin-right: 50px;
+    
+}
+
+
+/* city css**/
+#citys {
+    clear: both;
+    background: black;
+    width: 100%;
+   
+}
+#border1 {
+    background: black;
+}
+ .bottom1{
+    clear: both;
+    border-bottom: 1px solid grey;  
+    margin: 0px 80px 0px 80px;
+}
+#citys p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+#citys article {
+    padding: 20px 0;
+}
+#citys article ul {
+    list-style: none;
+    
+}
+#citys article ul li {
+    display:block;
+    line-height: 35px;
+}
+
+#citys article ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+#citys article ul li a:hover {
+    color:grey;
+}
+ .city1 {
+    width: 25%;
+    float: left;
+    margin-left:  50px;
+    font-weight: 300;
+    color:#777;
+    margin-top: 20px; 
+}
+.city2{
+    margin-top: 20px;
+    float: left;
+    width: 20%;
+}
+.city3 {
+float: left;
+width: 25%;
+margin-top: 20px;
+}
+.city4 {
+    margin-top:52px;
+}
+/*footer section **/
+#footersection {
+    background: black;
+    height: 150px;
+}
+.logoswiggy {
+    float: left;
+    width: 30%;
+}
+.logoswiggy figure img {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 142px;
+}
+  .Swiggy main p {
+      width: 30%;
+      margin-top: 30px;
+      color: white;
+      float: left;
+      text-align: center;
+
+}
+.icons {
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+    text-align: right;
+    cursor: pointer;
+    
+}
+
+.icons figure img {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+.icons figure img:hover {
+    color:gray;
+
+}
